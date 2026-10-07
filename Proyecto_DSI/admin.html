@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel de Admin</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Barra superior -->
+  <nav class="navbar bg-dark px-3">
+    <span class="navbar-brand text-white">Panel de Admin</span>
+    <button class="btn btn-outline-light btn-sm" id="btnSalir">Salir</button>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Menú lateral -->
+      <div class="col-3 col-lg-2 bg-light border-end vh-100 p-3">
+        <h6>Menú</h6>
+        <ul class="nav flex-column">
+          <li><a class="nav-link" href="#" data-seccion="inicio">Inicio</a></li>
+          <li><a class="nav-link" href="#" data-seccion="usuarios">Usuarios</a></li>
+          <li><a class="nav-link" href="#" data-seccion="reportes">Reportes</a></li>
+        </ul>
+      </div>
+
+      <!-- Contenido -->
+      <div class="col-9 col-lg-10 p-4">
+        <div id="inicio" class="seccion">
+          <h2>Inicio</h2>
+          <p>Bienvenido al panel.</p>
+        </div>
+
+        <div id="usuarios" class="seccion d-none">
+          <h2>Usuarios</h2>
+          <table class="table">
+            <tr><th>Nombre</th><th>Correo</th></tr>
+            <tr><td>Ana López</td><td>ana@dsi.com</td></tr>
+            <tr><td>Carlos Ruiz</td><td>carlos@dsi.com</td></tr>
+          </table>
+        </div>
+
+        <div id="reportes" class="seccion d-none">
+          <h2>Reportes</h2>
+          <p>Sin reportes por ahora.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
