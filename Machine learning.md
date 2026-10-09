@@ -21,5 +21,4 @@ E: Partidas de practica jugadas contra si mismo u otros oponentes
 Supervisado: En el aprendizaje supervisado el agente observa algunos pares de ejemplo entrada-salida y aprende una funcion que va de la entrada a la salida 
 
 No Supervisado: En el aprendizaje no supercisado, el agente aprende patrones en la entrada aunque no le proporcione retro explicita
-
 Por refuerzo: el aprendizaje por refuerzo es aprender que hacer, como asociar situaciones con acciones, de manera que se maximice una senal numerica de recompensa 
