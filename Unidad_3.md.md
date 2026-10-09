@@ -35,7 +35,8 @@ Búsqueda en amplitud (BFS, breadth-first search). Expande primero el nodo raíz
 
 Búsqueda en profundidad (DFS, depth-first search). Expande siempre el nodo más profundo de la frontera. Explora cada rama hasta el fondo y retrocede (backtracking) al llegar a un callejón sin salida. Usa la frontera como una pila (LIFO). Ocupa poca memoria, pero puede perderse en ramas infinitas y no garantiza la solución más corta.
 
-Búsqueda de costo uniforme (UCS, uniform cost search). Expande el nodo de la frontera con menor costo de camino acumulado, g(n). Usa una cola de prioridad. Es una generalización de la búsqueda en amplitud: si todos los pasos cuestan lo mismo, ambas se comportan igual. Aplica la prueba de meta al expandir el nodo, no al generarlo, para asegurar que el primer camino encontrado sea el más barato. Es la base del algoritmo de Dijkstra.
+Búsqueda de costo uniforme (UCS, uniform cost search). Expande el nodo de la frontera con menor costo de camino acumulado, g(n). Usa una cola de prioridad. Es una generalización de la búsqueda en amplitud: si todos los pasos cuestan lo mismo, ambas se comportan igual. Aplica la prueba de meta al expandir el nodo, no al generarlo, para asegurar que el primer camino encontrado sea el más barato. Es la base del algoritmo de Dijkstra
+![[Pasted image 20261008181115.png|329]]
 
 Ejemplo de costo uniforme: si de Aguascalientes salen dos rutas, una de 2 tramos y 260 km y otra de 1 tramo y 300 km, amplitud elige la de 1 tramo y costo uniforme la de 260 km.
 
