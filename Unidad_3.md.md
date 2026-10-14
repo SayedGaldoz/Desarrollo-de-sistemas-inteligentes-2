@@ -77,3 +77,24 @@ Las complejidades se expresan con estas variables: b = factor de ramificación (
 En la práctica, la memoria es el límite de amplitud y costo uniforme: con b = 10 y d = 10 habría que guardar del orden de 10^10 nodos. Profundidad guarda solo el camino actual y los hermanos pendientes de cada nodo.
 
 **
+
+**Busqueda Heuristica:** método de resolución de problemas en inteligencia artificial y ciencias de la computación que utiliza reglas, atajos o estimaciones (_heurísticas_) para encontrar una solución satisfactoria de forma rápida, sin necesidad de explorar todas las opciones posibles
+
+**Actividad 3.2
+
+Compara dos algoritmos A y uno ciego tras hacer eso contesta las siguientes preguntas
+
+Que longitud tiene cada algoritmo?
+cuanto tiempo se tardo cada algoritmo?
+que diferencia observas?
+
+![[Pasted image 20261014161337.png|393]]
+![[Pasted image 20261014161347.png]]
+
+
+![[Pasted image 20261014161228.png|392]]
+![[Pasted image 20261014161221.png]]
+
+
+![[Pasted image 20261014161309.png|381]]
+![[Pasted image 20261014161319.png]]
