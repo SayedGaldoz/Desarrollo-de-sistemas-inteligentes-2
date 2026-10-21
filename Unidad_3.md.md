@@ -98,3 +98,13 @@ que diferencia observas?
 
 ![[Pasted image 20261014161309.png|381]]
 ![[Pasted image 20261014161319.png]]
+
+Actividad 3.4 
+Que relacion tienen las gpu con las redes neuronales y las neurosnas
+
+Una gpu basa su poder grafico por medio de redes neuronales, funcionando con estas mismas para sus usos extensivos, las redes neuronales han mejorado, evolucionado gracias a estas mismas y su potencia.
+
+si no fuera por la potencia de calculo de una gpu, la red neuronal estaria bastamente limitada en su numero de ejemplos y neuronas artificiales
+
+Actividad: Mapa mental de redes neuronales
+![[Mapa mental redes neuronales.png]]
