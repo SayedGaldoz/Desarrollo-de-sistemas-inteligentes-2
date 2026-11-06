@@ -117,3 +117,18 @@ Act 3.6
 | **Definición**  | Sistema de inferencia difusa propuesto por Ebrahim Mamdani (1975). Tanto los antecedentes como los consecuentes de las reglas son conjuntos difusos. | Sistema de inferencia difusa propuesto por Takagi y Sugeno (1985).  consecuente es una función (lineal o constante) de las entradas.     |
 | **Ventajas**    | • Reglas muy intuitivas y fáciles de interpretar<br>• Captura el conocimiento de expertos en lenguaje natural<br>                                    | • Cálculo más rápido, no necesita defuzzificación<br>• Salida continua y precisa<br>                                                     |
 | **Desventajas** | • Mayor costo computacional por la defuzzificación<br>• Más lento con muchas reglas o en tiempo real<br>                                             | • Reglas menos intuitivas, porque el consecuente es una ecuación<br>• Requiere datos o conocimiento matemático para los coeficientes<br> |
+
+
+Sistema de triage de urgencias medicas
+
+Variables de Entrada: 
+
+frecuencia cardiaca:
+temperatura corporal:
+nivel de dolor reportado: 
+
+Variables de salida
+Prioridad 
+baja 
+media 
+alta 
