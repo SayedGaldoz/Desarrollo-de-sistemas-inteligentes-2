@@ -119,16 +119,88 @@ Act 3.6
 | **Desventajas** | • Mayor costo computacional por la defuzzificación<br>• Más lento con muchas reglas o en tiempo real<br>                                             | • Reglas menos intuitivas, porque el consecuente es una ecuación<br>• Requiere datos o conocimiento matemático para los coeficientes<br> |
 
 
-Sistema de triage de urgencias medicas
+# Sistema de Evaluación de Documentación Inmobiliaria
 
-Variables de Entrada: 
+## Objetivo
 
-frecuencia cardiaca:
-temperatura corporal:
-nivel de dolor reportado: 
+Crear un sistema que permita evaluar si una propiedad cuenta con los documentos necesarios y cumple con los requisitos legales para poder ser comercializada por una inmobiliaria.
 
-Variables de salida
-Prioridad 
-baja 
-media 
-alta 
+## Variables de entrada
+
+**1. Documentación del inmueble**
+
+Baja: Faltan documentos importantes.
+    
+Media: Cuenta con algunos documentos, pero faltan otros.
+    
+ Alta: Cuenta con todos los documentos necesarios y están organizados.
+    
+
+**2. Permisos de construcción y venta**
+
+Bajo: No cuenta con los permisos necesarios.
+    
+Medio: Tiene permisos pendientes de actualización o revisión.
+    
+ Alto: Cuenta con los permisos correspondientes.
+    
+
+**3. Medidas y dimensiones del inmueble**
+
+Baja: Los metros cuadrados no coinciden con los documentos oficiales.
+    
+ Media: Existen pequeñas diferencias que necesitan revisión.
+    
+Alta: Las medidas coinciden con escrituras y registros catastrales.
+    
+
+**4. Situación legal de la propiedad**
+
+Baja: Presenta problemas legales o de propiedad.
+    
+Media: Tiene asuntos legales pendientes de resolver.
+    
+Alta: La propiedad se encuentra legalmente acreditada y sin impedimentos identificados para su venta.
+    
+
+## Variables de salida
+
+**Prioridad de comercialización**
+
+Baja: La propiedad está lista para ofrecerse a posibles compradores.
+    
+Media: Necesita corregir algunos documentos o realizar revisiones.
+    
+Alta: Requiere una revisión legal y documental antes de comercializarse.
+    
+Urgente: Presenta problemas legales importantes y no debe continuar con el proceso de venta hasta resolverlos.
+    
+
+## Reglas del sistema
+
+1. Si toda la documentación está completa, los permisos están en orden y la propiedad no presenta problemas legales, puede comercializarse.
+    
+2. Si faltan algunos documentos, se debe solicitar al propietario que los complete.
+    
+3. Si los permisos de construcción están pendientes, se debe revisar la situación antes de continuar.
+    
+4. Si las medidas de la propiedad no coinciden con las escrituras, se debe realizar una revisión catastral.
+    
+5. Si existen problemas legales con la propiedad, se debe detener el proceso de comercialización.
+    
+6. Si todos los requisitos están en orden, la propiedad puede aprobarse para su publicación y venta.
+    
+
+## Funcionamiento del sistema
+
+El sistema revisará los documentos proporcionados por el propietario y evaluará cuatro aspectos principales: documentación, permisos, medidas y situación legal.
+
+Después de revisar estos aspectos, determinará si la propiedad está lista para comercializarse o si necesita realizar correcciones.
+
+## Ejemplo
+
+Una persona desea vender su casa a través de nosotros. Al revisar sus documentos, se encuentra que cuenta con escrituras y pagos de predial actualizados, pero sus medidas catastrales no coinciden con las dimensiones reales de la propiedad.
+
+El sistema determinará que la propiedad necesita una revisión antes de continuar con el proceso de venta.
+
+**Resultado:** Prioridad media. Se recomienda verificar las medidas y corregir cualquier diferencia antes de formalizar la operación.
